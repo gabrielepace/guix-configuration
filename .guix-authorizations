@@ -1,0 +1,6 @@
+;; OpenPGP key authorized to sign commits in this repository.
+
+(authorizations
+ (version 0)
+ (("361E C4E7 25B4 C97D 925F A29C 9B0A 5FAD 8BA8 1A93"
+   (name "gabrielepace"))))
