@@ -5,11 +5,16 @@ Own defined GNU Guix configuration channel
 Add following code in `~/.config/guix/channels.scm`:
 
 ```scheme
-(cons (channel
-       (name 'gabrielepace)
-       (url "https://github.com/gabrielepace/guix-configuration.git")
-       (branch "main"))
-      %default-channels)
+(cons* (channel
+        (name 'gabrielepace)
+        (url "https://github.com/gabrielepace/guix-configuration.git")
+        (branch "main")
+        (introduction
+         (make-channel-introduction
+          "b9efe9dd01967e06fb232858a03e0d504e076722"
+          (openpgp-fingerprint
+           "361E C4E7 25B4 C97D 925F A29C 9B0A 5FAD 8BA8 1A93"))))
+       %default-channels)
 ```
 
 If `channels.scm` file is not available, create it.
