@@ -1,7 +1,7 @@
 # guix-configuration
 Own defined GNU Guix configuration channel
 
-## How to add this channel in GNU Guix
+## How to use it as a channel in GNU Guix
 Add following code in `~/.config/guix/channels.scm`:
 
 ```scheme
@@ -14,6 +14,14 @@ Add following code in `~/.config/guix/channels.scm`:
 
 If `channels.scm` file is not available, create it.
 
-After adding, run in a Terminal `guix pull` (as root).
+After adding, run in a Terminal `$ guix pull` (as root).
 
-Run `guix pull --list-generations` (as root) to check if was correctly added.
+Run `$ guix pull --list-generations` (as root) to check if was correctly added.
+
+## How to use it as a build to install in GNU Guix
+
+Download this repository or run in a Terminal `$ git clone https://github.com/gabrielepace/guix-configuration`.
+
+After downloading it, go to the folder where it was downloaded and run:
+
+`$ guix build -L ./guix-configuration <package-name>` (write in `<package-name>` a package defined inside a *scm file in `gabrielepace/packages`)
