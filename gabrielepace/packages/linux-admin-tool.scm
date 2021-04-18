@@ -1,4 +1,4 @@
-(define-module (gabrielepace packages admin)
+(define-module (gabrielepace packages linux-admin-tool)
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (gnu packages)
   #:use-module (gnu packages qt)

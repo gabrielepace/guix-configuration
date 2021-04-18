@@ -1,4 +1,4 @@
-(define-module (gabrielepace packages databases)
+(define-module (gabrielepace packages database-tools)
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (guix build-system gnu)
   #:use-module (gnu packages lisp-xyz)

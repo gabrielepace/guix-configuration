@@ -1,4 +1,4 @@
-(define-module (gabrielepace packages image)
+(define-module (gabrielepace packages image-tool)
   #:use-module (guix packages)
   #:use-module (guix build-system gnu)
   #:use-module (guix build-system meson)

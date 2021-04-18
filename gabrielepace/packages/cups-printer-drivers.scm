@@ -1,4 +1,4 @@
-(define-module (gabrielepace packages cups))
+(define-module (gabrielepace packages cups-printer-drivers))
 
 (use-modules (guix packages)
              ((guix licenses) #:prefix license:)

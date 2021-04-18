@@ -1,4 +1,4 @@
-(define-module (gabrielepace packages web)
+(define-module (gabrielepace packages web-tool)
   #:use-module (guix packages)
   #:use-module (guix build-system gnu)
   #:use-module (gnu packages lua)
