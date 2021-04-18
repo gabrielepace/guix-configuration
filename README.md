@@ -5,7 +5,7 @@ Own defined GNU Guix configuration channel
 Add following code in `~/.config/guix/channels.scm`:
 
 ```scheme
-(cons* (channel
+(cons (channel
         (name 'gabrielepace)
         (url "https://github.com/gabrielepace/guix-configuration.git")
         (branch "main")
