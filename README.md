@@ -11,7 +11,7 @@ Add following code in `~/.config/guix/channels.scm`:
         (branch "main")
         (introduction
          (make-channel-introduction
-          "4190407c052c74606d747aa79d32649967074029"
+          "db1f012b654a9f8327d6ed5876eaeb518434ee00"
           (openpgp-fingerprint
            "361E C4E7 25B4 C97D 925F A29C 9B0A 5FAD 8BA8 1A93"))))
        %default-channels)
